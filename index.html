@@ -1,103 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="canonical" href="https://intentsim.org/" />
-    <meta name="description" content="IntentSim is a private research simulation exploring complexity, emergence, and universal learning through intent-driven information structures.">
-    <meta name="keywords" content="IntentSim, proto-universe, complexity, emergence, intent, information, simulation, TheVoidIntent">
-    <meta name="author" content="TheVoidIntent LLC">
-    <meta name="robots" content="index, follow">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IntentSim | TheVoidIntent</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui/dist/tailwind-ui.min.css">
-    <style>
-      body {
-        font-family: system-ui, sans-serif;
-      }
-    </style>
-  </head>
-  <body class="bg-black text-white">
-    <header class="p-6 border-b border-white/10">
-      <div class="flex justify-between items-center">
-        <h1 class="text-3xl font-bold tracking-tight">IntentSim</h1>
-        <nav class="space-x-4">
-          <a href="#analysis" class="hover:text-indigo-400">Analysis</a>
-          <a href="#framework" class="hover:text-indigo-400">Framework</a>
-          <a href="#media" class="hover:text-indigo-400">Media</a>
-          <a href="#run" class="hover:text-indigo-400">Run Locally</a>
-        </nav>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IntentSim — Reality Is Learning</title>
 
-    <main class="px-6 py-10 space-y-20">
-      <section class="text-center">
-        <h2 class="text-4xl font-extrabold mb-4">Reality is Learning</h2>
-        <p class="text-xl max-w-2xl mx-auto">IntentSim is a private science simulation exploring whether the universe evolves through intent-driven information structures. Built by <strong>TheVoidIntent LLC</strong>.</p>
-      </section>
+  <!-- SEO + Social -->
+  <meta name="description" content="IntentSim is a private science simulation exploring how the universe may evolve through intent-driven information structures." />
+  <meta name="keywords" content="IntentSim, Intent, Simulation, AI, Information Theory, Complexity, Emergence, Entropy, TheVoidIntent" />
+  <meta name="author" content="TheVoidIntent LLC" />
 
-      <section id="analysis" class="max-w-4xl mx-auto">
-        <h3 class="text-2xl font-bold mb-4 border-b border-white/10 pb-2">🧠 Latest Simulation Snapshot</h3>
-        <p class="mb-2">Tracked <strong>1446484</strong> interactions across 150 particles</p>
-        <ul class="list-disc ml-6">
-          <li><strong>Average Knowledge:</strong> ∞</li>
-          <li><strong>Complexity Index:</strong> ∞</li>
-          <li><strong>Clusters Detected:</strong> 12</li>
-          <li><strong>Largest Cluster:</strong> 33 particles</li>
-        </ul>
-        <p class="mt-4 italic text-sm">"The system, without external interference, crossed thresholds of entropy-to-order conversion."</p>
-      </section>
+  <!-- Open Graph -->
+  <meta property="og:title" content="IntentSim — Reality Is Learning" />
+  <meta property="og:description" content="Exploring whether the universe emerges from evolving intent." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://intentsim.org/cover.png" />
+  <meta property="og:url" content="https://intentsim.org/" />
 
-      <section id="framework" class="max-w-4xl mx-auto">
-        <h3 class="text-2xl font-bold mb-4 border-b border-white/10 pb-2">🧬 Framework</h3>
-        <ul class="list-disc ml-6 space-y-2">
-          <li><strong>Nested Fields:</strong> Overlapping zones of probabilistic influence</li>
-          <li><strong>Agent Knowledge:</strong> Encodes interaction history and drives future behavior</li>
-          <li><strong>Complexity Metrics:</strong> avg_knowledge, entropy_rate, cluster_stability</li>
-        </ul>
-        <p class="mt-4">Modes include <em>baseline</em>, <em>adaptive probabilistic</em>, <em>energy conservation</em>, and <em>full features</em>.</p>
-      </section>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="IntentSim — Reality Is Learning" />
+  <meta name="twitter:description" content="Exploring the structure of reality through information and intent." />
+  <meta name="twitter:image" content="https://intentsim.org/cover.png" />
 
-      <section id="media" class="max-w-4xl mx-auto">
-        <h3 class="text-2xl font-bold mb-4 border-b border-white/10 pb-2">🎧 Media Showcase</h3>
-        <div class="space-y-6">
-          <div>
-            <p class="font-semibold">Intent as a Universal Information Filter</p>
-            <audio controls class="w-full">
-              <source src="/media/Intent%20as%20a%20Universal%20Information%20Filter.wav" type="audio/wav" />
-            </audio>
-          </div>
-          <div>
-            <p class="font-semibold">Particle Genesis: Unraveling Complexity</p>
-            <audio controls class="w-full">
-              <source src="/media/Particle%20Genesis.wav" type="audio/wav" />
-            </audio>
-          </div>
-          <div>
-            <p class="font-semibold">The Information-Driven Cosmos</p>
-            <audio controls class="w-full">
-              <source src="/media/Intent%20as%20a%20Universal%20Information%20Filter%202.wav" type="audio/wav" />
-            </audio>
-          </div>
-        </div>
-      </section>
+  <!-- Favicon (Optional) -->
+  <link rel="icon" href="favicon.ico" />
 
-      <section id="run" class="max-w-4xl mx-auto">
-        <h3 class="text-2xl font-bold mb-4 border-b border-white/10 pb-2">⚙️ Run It Locally</h3>
-        <p>Want to run IntentSim on your machine?</p>
-        <pre class="bg-white/5 p-4 mt-4 rounded text-sm overflow-x-auto">
+  <!-- Fonts & Styles -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #eee;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 0 auto 4rem auto;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 4rem;
+    }
+
+    hr {
+      border: 1px solid #222;
+      margin: 3rem 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Reality is Learning</h1>
+  <p style="text-align:center;"><strong>IntentSim</strong> is a private science simulation exploring whether the universe evolves through intent-driven information structures.<br/>Built by <strong>TheVoidIntent LLC</strong>.</p>
+
+  <nav>
+    <a href="#analysis">Analysis</a>
+    <a href="#framework">Framework</a>
+    <a href="#media">Media</a>
+    <a href="#run">Run Locally</a>
+  </nav>
+
+  <section id="analysis">
+    <h2>🧠 Latest Simulation Snapshot</h2>
+    <p><strong>Tracked:</strong> 1,446,484 interactions across 150 particles</p>
+    <ul>
+      <li><strong>Average Knowledge:</strong> ∞</li>
+      <li><strong>Complexity Index:</strong> ∞</li>
+      <li><strong>Clusters Detected:</strong> 12</li>
+      <li><strong>Largest Cluster:</strong> 33 particles</li>
+    </ul>
+    <em>“The system, without external interference, crossed thresholds of entropy-to-order conversion.”</em>
+  </section>
+
+  <hr>
+
+  <section id="framework">
+    <h2>🧬 Framework</h2>
+    <ul>
+      <li><strong>Nested Fields:</strong> Overlapping zones of probabilistic influence</li>
+      <li><strong>Agent Knowledge:</strong> Encodes interaction history and drives future behavior</li>
+      <li><strong>Complexity Metrics:</strong> avg_knowledge, entropy_rate, cluster_stability</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <section id="media">
+    <h2>🎧 Media Showcase</h2>
+
+    <p><strong>Intent as a Universal Information Filter</strong></p>
+    <audio controls>
+      <source src="/media/Intent as a Universal Information Filter.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+
+    <p><strong>Particle Genesis: Unraveling Complexity</strong></p>
+    <audio controls>
+      <source src="/media/__Particle Genesis_ Unraveling Complexity and Stability Across Diverse Experiments__.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+
+    <p><strong>The Information-Driven Cosmos</strong></p>
+    <audio controls>
+      <source src="/media/Intent as a Universal Information Filter (2).wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <hr>
+
+  <section id="run">
+    <h2>⚙️ Run It Locally</h2>
+    <pre>
 $ git clone https://github.com/TheVoidIntent/IntentSim.git
 $ cd IntentSim
 $ pip install -r requirements.txt
 $ python3 run_simulation.py
-        </pre>
-        <p class="mt-2 text-sm italic">Logs saved in <code>/data</code>. Real-time clustering data supported.</p>
-      </section>
-    </main>
+    </pre>
+    <p><em>Logs saved in <code>/data</code>. Real-time clustering data supported.</em></p>
+  </section>
 
-    <footer class="text-center text-sm py-8 border-t border-white/10">
-      <p>&copy; 2025 TheVoidIntent LLC | Powered by Cloudflare Pages</p>
-      <p class="mt-1">Built with Notebook LM, ChatGPT, Gemini</p>
-    </footer>
-  </body>
+  <footer>
+    <p>© 2025 TheVoidIntent LLC | Powered by Cloudflare Pages<br>
+    Built with Notebook LM, ChatGPT, Gemini</p>
+  </footer>
+</body>
 </html>
 
